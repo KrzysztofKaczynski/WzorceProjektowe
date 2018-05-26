@@ -1,8 +1,36 @@
 package co.devfoundry.order;
 
-public class Order {
+import co.devfoundry.notification.Observer;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class Order implements Observable {
     private Long orderNumber;
     private OrderStatus orderStatus;
+    private Set<Observer> registerObservers = new HashSet<Observer>();
+
+    @Override
+    public void registerObserver(Observer observer) {
+        registerObservers.add(observer);
+    }
+
+    @Override
+    public void unregisterObserver(Observer observer) {
+        registerObservers.remove(observer);
+    }
+
+    @Override
+    public void notifyObservers() {
+        for (Observer observer : registerObservers) {
+            observer.update(this);
+        }
+
+    }
+    public void changeOrderStatus(OrderStatus orderStatus){
+        setOrderStatus(orderStatus);
+        notifyObservers();
+    }
 
     public Long getOrderNumber() {
         return orderNumber;
