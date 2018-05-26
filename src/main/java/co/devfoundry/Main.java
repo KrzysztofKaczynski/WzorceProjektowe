@@ -15,11 +15,20 @@ public class Main {
         MobileApp mobileApp = new MobileApp();
         Email email = new Email();
 
-       order.registerObserver(textMesssage);
-       order.registerObserver(mobileApp);
-       order.registerObserver(email);
+        order.registerObserver(textMesssage);
+        order.registerObserver(mobileApp);
+        order.registerObserver(email);
 
-       order.notifyObservers();
+        order.notifyObservers();
 
+        System.out.println("---------------------------------");
+
+        order.changeOrderStatus(OrderStatus.WYSLANE);
+
+        order.unregisterObserver(email);
+
+        System.out.println("---------------------------------");
+
+        order.changeOrderStatus(OrderStatus.ODEBRANE);
     }
 }
