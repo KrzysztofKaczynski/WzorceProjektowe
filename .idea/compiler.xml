@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Dekorator" />
+        <module name="DekoratorSzefKuchni" />
+        <module name="Obserwator" />
+        <module name="ObserwatorDUCKandACCIDENT" />
+        <module name="Strategia" />
+        <module name="StrategiaRabatowa" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Dekorator" target="1.5" />
+      <module name="DekoratorSzefKuchni" target="1.5" />
+      <module name="Obserwator" target="1.5" />
+      <module name="ObserwatorDUCKandACCIDENT" target="1.5" />
+      <module name="Strategia" target="1.5" />
+      <module name="StrategiaRabatowa" target="1.5" />
+      <module name="Zadania" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

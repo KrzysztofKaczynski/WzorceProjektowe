@@ -12,6 +12,9 @@
         <module>Strategia</module>
         <module>StrategiaRabatowa</module>
         <module>Obserwator</module>
+        <module>ObserwatorDUCKandACCIDENT</module>
+        <module>Dekorator</module>
+        <module>DekoratorSzefKuchni</module>
     </modules>
 
 

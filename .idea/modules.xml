@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Zadania/Dekorator/Dekorator.iml" filepath="$PROJECT_DIR$/Zadania/Dekorator/Dekorator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Zadania/DekoratorSzefKuchni/DekoratorSzefKuchni.iml" filepath="$PROJECT_DIR$/Zadania/DekoratorSzefKuchni/DekoratorSzefKuchni.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Zadania/Obserwator/Obserwator.iml" filepath="$PROJECT_DIR$/Zadania/Obserwator/Obserwator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Zadania/ObserwatorDUCKandACCIDENT/ObserwatorDUCKandACCIDENT.iml" filepath="$PROJECT_DIR$/Zadania/ObserwatorDUCKandACCIDENT/ObserwatorDUCKandACCIDENT.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Zadania/Strategia/Strategia.iml" filepath="$PROJECT_DIR$/Zadania/Strategia/Strategia.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Zadania/StrategiaRabatowa/StrategiaRabatowa.iml" filepath="$PROJECT_DIR$/Zadania/StrategiaRabatowa/StrategiaRabatowa.iml" />
       <module fileurl="file://$PROJECT_DIR$/WzorceProjektowe.iml" filepath="$PROJECT_DIR$/WzorceProjektowe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Zadania/Zadania.iml" filepath="$PROJECT_DIR$/Zadania/Zadania.iml" />
     </modules>
   </component>
 </project>
