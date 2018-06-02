@@ -6,10 +6,37 @@ public class House {
     private String floors;
     private String rooms;
     private String roof;
-    private String widows;
+    private String windows;
     private String doors;
     private String garage;
 
+    public void setWalls(String walls) {
+        this.walls = walls;
+    }
+
+    public void setFloors(String floors) {
+        this.floors = floors;
+    }
+
+    public void setRooms(String rooms) {
+        this.rooms = rooms;
+    }
+
+    public void setRoof(String roof) {
+        this.roof = roof;
+    }
+
+    public void setWindows(String windows) {
+        this.windows = windows;
+    }
+
+    public void setDoors(String doors) {
+        this.doors = doors;
+    }
+
+    public void setGarage(String garage) {
+        this.garage = garage;
+    }
 
     public String getWalls() {
 
@@ -32,8 +59,8 @@ public class House {
     }
 
 
-    public String getWidows() {
-        return widows;
+    public String getWindows() {
+        return windows;
     }
 
 
@@ -54,7 +81,7 @@ public class House {
                 ", floors='" + floors + '\'' +
                 ", rooms='" + rooms + '\'' +
                 ", roof='" + roof + '\'' +
-                ", widows='" + widows + '\'' +
+                ", widows='" + windows + '\'' +
                 ", doors='" + doors + '\'' +
                 ", garage='" + garage + '\'' +
                 '}';
