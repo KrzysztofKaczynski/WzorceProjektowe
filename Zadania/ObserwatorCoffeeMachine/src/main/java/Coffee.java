@@ -1,8 +1,8 @@
-package main.java;
+import base.CoffeeBase;
+import condiments.*;
 
-import main.java.base.CoffeeBase;
-import main.java.condiments.*;
 import java.util.ArrayList;
+
 import java.util.List;
 import java.util.stream.Collectors;
 

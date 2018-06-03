@@ -1,4 +1,5 @@
-package main.java.condiments;
+package condiments;
+
 public interface Condiment {
     String getCondimentName();
 }

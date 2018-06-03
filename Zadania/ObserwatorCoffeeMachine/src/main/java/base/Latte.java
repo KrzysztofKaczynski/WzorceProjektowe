@@ -1,4 +1,5 @@
-package main.java.base;
+package base;
+
 public class Latte implements CoffeeBase {
     @Override
     public String getCoffeeType() {

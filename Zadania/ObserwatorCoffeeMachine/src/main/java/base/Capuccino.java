@@ -1,4 +1,4 @@
-package main.java.base;
+package base;
 
 public class Capuccino implements CoffeeBase {
     @Override

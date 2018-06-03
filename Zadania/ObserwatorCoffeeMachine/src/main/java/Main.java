@@ -1,7 +1,4 @@
-package main.java;
-
-
-import main.java.base.Latte;
+import base.Latte;
 
 public class Main {
     public static void main(String[] args) {

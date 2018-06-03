@@ -1,11 +1,6 @@
-package test;
-
 
 import base.Capuccino;
 import condiments.Condiment;
-import main.java.Coffee;
-import main.java.base.Capuccino;
-import main.java.condiments.Condiment;
 import org.junit.Assert;
 import org.junit.Test;
 

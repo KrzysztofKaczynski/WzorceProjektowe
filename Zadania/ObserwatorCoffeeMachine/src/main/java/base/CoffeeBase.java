@@ -1,4 +1,5 @@
-package main.java.base;
+package base;
+
 public interface CoffeeBase {
     String getCoffeeType();
 }
