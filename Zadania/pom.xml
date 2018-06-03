@@ -15,6 +15,15 @@
         <module>ObserwatorDUCKandACCIDENT</module>
         <module>Dekorator</module>
         <module>DekoratorSzefKuchni</module>
+        <module>StrategiaCalculator</module>
+        <module>Builderhouse</module>
+        <module>BuilderHouseInterfejs</module>
+        <module>BuildHouseWithInterface</module>
+        <module>BuilderHouseinterface</module>
+        <module>BuilderFlighLeg</module>
+        <module>ObserwatorCoffeeMachine</module>
+        <module>SingletonApp</module>
+        <module>BuilderUser</module>
     </modules>
 
 
