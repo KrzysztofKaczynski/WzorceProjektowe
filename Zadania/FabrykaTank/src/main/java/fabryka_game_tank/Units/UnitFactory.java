@@ -1,4 +1,4 @@
-package fabryka_game_tank;
+package fabryka_game_tank.Units;
 
 public class UnitFactory extends Factory {
     @Override

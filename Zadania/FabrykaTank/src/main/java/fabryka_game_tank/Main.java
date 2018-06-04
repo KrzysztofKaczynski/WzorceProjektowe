@@ -1,10 +1,17 @@
 package fabryka_game_tank;
 
+import fabryka_game_tank.Units.Factory;
+import fabryka_game_tank.Units.Unit;
+import fabryka_game_tank.Units.UnitFactory;
+import fabryka_game_tank.Units.UnitType;
+
 public class Main {
     public static void main(String[] args) {
 
-        Unit tank = new Tank(200, 0, 20);
-        Unit rifleman =new Rifleman(100, 0, 10);
+        Factory factory = new UnitFactory();
+
+        Unit tank = factory.createUnit(UnitType.TANK);
+        Unit rifleman = factory.createUnit(UnitType.RIFLEMAN);
 
     }
 }

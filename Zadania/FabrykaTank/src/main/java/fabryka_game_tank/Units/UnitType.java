@@ -1,4 +1,4 @@
-package fabryka_game_tank;
+package fabryka_game_tank.Units;
 
 public enum UnitType {
     RIFLEMAN, TANK;

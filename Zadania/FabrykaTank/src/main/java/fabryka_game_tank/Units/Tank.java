@@ -1,7 +1,7 @@
-package fabryka_game_tank;
+package fabryka_game_tank.Units;
 
 public class Tank extends Unit {
-    public Tank(int hp, int exp, int dmgDone) {
+    Tank(int hp, int exp, int dmgDone) {
         super(hp, exp, dmgDone);
     }
 }

@@ -1,7 +1,7 @@
-package fabryka_game_tank;
+package fabryka_game_tank.Units;
 
 public class Rifleman extends Unit {
-    public Rifleman(int hp, int exp, int dmgDone) {
+    Rifleman(int hp, int exp, int dmgDone) {
         super(hp, exp, dmgDone);
     }
 }
