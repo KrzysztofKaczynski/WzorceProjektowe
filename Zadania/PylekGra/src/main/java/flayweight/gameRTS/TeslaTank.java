@@ -1,14 +1,15 @@
 package flayweight.gameRTS;
 
-public class Rifleman {
+public class TeslaTank {
+
     private int x;
     private int y;
     private int hpLeft;
-    private RiflemanUnitsStats stats;
+    private TeslaTankUnitStats stats;
 
-    public Rifleman(int x, int y) {
+    public TeslaTank(int x, int y) {
 
-        stats =UnitStatsRepository.getRiflemanStats();
+        stats = UnitStatsRepository.getTeslaTankStats();
         this.x = x;
         this.y = y;
         this.hpLeft = stats.getHp();
