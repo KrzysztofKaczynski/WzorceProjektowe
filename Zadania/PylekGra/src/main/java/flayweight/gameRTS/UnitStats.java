@@ -1,6 +1,6 @@
 package flayweight.gameRTS;
 
-public class RiflemanUnitsStats {
+public class UnitStats {
     private String name;
     private int hp;
     private int armour;
@@ -32,7 +32,7 @@ public class RiflemanUnitsStats {
         return resourceCost;
     }
 
-    public RiflemanUnitsStats(String name, int hp, int armour, int damageDealt, int speed, int resourceCost) {
+    public UnitStats(String name, int hp, int armour, int damageDealt, int speed, int resourceCost) {
 
         this.name = name;
         this.hp = hp;

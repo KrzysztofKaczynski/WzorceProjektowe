@@ -2,23 +2,23 @@ package flayweight.gameRTS;
 
 public class UnitStatsRepository {
 
-    private static DestroyerUnitStats destroyerStats = new DestroyerUnitStats
+    private static UnitStats destroyerStats = new UnitStats
             ("Destroyer", 500, 250, 70, 10,  800 );
-    private static RiflemanUnitsStats riflemanStats = new RiflemanUnitsStats
+    private static UnitStats riflemanStats = new UnitStats
             ("Rifleman", 25, 5, 20,25,50);
-    private static TeslaTankUnitStats teslaTankStats = new TeslaTankUnitStats
+    private static UnitStats teslaTankStats = new UnitStats
             ("TeslaTank", 200, 100, 50, 25, 500);
 
 
         private UnitStatsRepository() { }
 
-    public static DestroyerUnitStats getDestroyerStats() {
+    public static UnitStats getDestroyerStats() {
         return destroyerStats;
     }
-    public static RiflemanUnitsStats getRiflemanStats() {
+    public static UnitStats getRiflemanStats() {
         return riflemanStats;
     }
-    public static TeslaTankUnitStats getTeslaTankStats() {
+    public static UnitStats getTeslaTankStats() {
         return teslaTankStats;
     }
     }
