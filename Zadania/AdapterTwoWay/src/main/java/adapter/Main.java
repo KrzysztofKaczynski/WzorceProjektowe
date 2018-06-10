@@ -1,16 +1,14 @@
 package adapter;
 
+import adapter.soketUKandEU.*;
+
 public class Main {
 
     public static void main(String[] args) {
 
-        EUDevice radio = new EUDevice() {
-            public void on() {
-                System.out.println("Gra muzyka");
-            }
-        };
+
         EUSoket euSoket = new EUSoket();
-        euSoket.plugIn(radio);
+        UKSoket ukSoket = new UKSoket();
 
         UKDevice angRadio = new UKDevice() {
             public void powerOn() {
@@ -18,11 +16,16 @@ public class Main {
             }
         };
 
-        UKSoket ukSoket = new UKSoket();
-        ukSoket.plugIn(angRadio);
+        EUDevice euRadio = new EUDevice() {
+            public void on() {
+                System.out.println("Radio gra");
+            }
+        };
 
-        UKtoEUadapter adapter = new UKtoEUadapter(angRadio);
+        TwoWayAdapter adapter = new TwoWayAdapter(angRadio, euRadio);
+
         euSoket.plugIn(adapter);
+        ukSoket.plugIn(adapter);
 
 
     }
