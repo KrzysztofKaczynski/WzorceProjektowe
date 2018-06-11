@@ -26,8 +26,4 @@ public class Message {
         return content;
     }
 
-    public Message(String content) {
-
-        this.content = content;
-    }
 }

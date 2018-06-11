@@ -6,20 +6,19 @@ public abstract class Officer {
 
     private Officer superiorOfficer;
 
-    public void setSuperiorOfficer(Officer superiorOfficer) {
-        this.superiorOfficer = superiorOfficer;
-    }
-
-    public Officer(Officer superiorOfficer) {
-        this.superiorOfficer = superiorOfficer;
-    }
+    public abstract void processMessage(Message message);
 
     public Officer getSuperiorOfficer() {
 
         return superiorOfficer;
     }
+    public void setSuperiorOfficer(Officer superiorOfficer) {
+        this.superiorOfficer = superiorOfficer;
+    }
 
-    public abstract void processMessage(Message message);
+
+
+
 /**
     private boolean sergeant;
     private boolean captain;

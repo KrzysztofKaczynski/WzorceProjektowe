@@ -7,9 +7,7 @@ public class General extends Officer {
     private static final int CODE = 100;
     private static final String NAME = "General Zaborksi";
 
-    public General(Officer superiorOfficer) {
-        super(superiorOfficer);
-    }
+
 
     @Override
     public void processMessage(Message message) {
