@@ -6,16 +6,16 @@ public class Robot {
         System.out.println("Robot włączony!");
     }
 
-    public void cut() {
+  public   void cut() {
         System.out.println("Robot tnie!");
     }
 
-    public void drill() {
+   public void drill() {
         System.out.println("Robot wierci!");
     }
 
-    public void turnOff() {
-        System.out.println("Robot włączony!");
+   public void turnOff() {
+        System.out.println("Robot wyłączony!");
 
     }
 }
