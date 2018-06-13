@@ -13,4 +13,8 @@ public class RobotTurnCommand implements Command{
     public void execute() {
         robot.turnOn();
     }
+
+    public void undo() {
+        robot.turnOff();
+    }
 }
